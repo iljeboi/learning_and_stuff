@@ -1,0 +1,12 @@
+A reference to executable code, or a piece of executable code, that is passed as an argument to other code.
+
+function greeting(name) {
+  alert('Hello ' + name);
+}
+
+function processUserInput(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
+
+processUserInput(greeting);

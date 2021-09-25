@@ -1,0 +1,50 @@
+Characteristics of JavaScript
+
+– JavaScript is an object-based scripting language. 
+– JavaScript gives the user enhanced control over the browser. 
+– It Identifying the user’s browser and operating system. 
+– It’s a scripting language and it is not java. 
+– JavaScript is an interpreter based scripting language. 
+– JavaScript is case sensitive. 
+– It’s object-based language as it gives predefined objects. 
+– Every statement in javascript must be ended with a semicolon (;). 
+– Most of the javascript control statements syntax is same as the syntax of control statements in C language. 
+– A significant part of JavaScript is the ability to generate new functions within scripts. Declare a function in JavaScript using function keyword.
+Attribution link: https://latesthackingnews.com/2017/09/24/basic-characteristics-javascript/
+
+Events
+
+Event handlers can be used to handle and verify user input, user actions, and browser actions:
+
+- Things that should be done every time a page loads
+- Things that should be done when the page is closed
+- Action that should be performed when a user clicks a button
+- Content that should be verified when a user inputs data
+
+Many different methods can be used to let JavaScript work with events:
+
+- HTML event attributes can execute JavaScript code directly
+- HTML event attributes can call JavaScript functions
+- You can assign your own event handler functions to HTML elements
+- You can prevent events from being sent or being handled
+
+Platform Independence
+
+- JavaScript is Platform Independent, which means you need to write the script once and can run it on any platform or browser without affecting the output of the Script.
+
+Difference between a Scripting Language and a Programming Language
+
+- Scripting language is a programming language supporting scripts written exclusively for a special runtime environment to automate a specific action/function execution.	
+- Programming language is a set of instructions that can be fed into a computer to achieve a specific output.
+
+- Scripting languages run inside another program.	
+- Programming languages run independently of a parent program
+
+- Scripting languages are made to make coding easier and faster.	
+- Programming languages are made to make full-fledged code and software development easier.
+
+- Scripting languages, on the other hand, demand line-by-line conversion.	
+- Programming languages use a compiler, it is a one-shot conversion. 
+
+- Python, JavaScript, Rexx, Ruby, GameMonkey, etc., are some of the most widely used scripting languages.	
+- C, C++, C#, Java, Basic, COBOL, and Pascal, are some programming languages. 

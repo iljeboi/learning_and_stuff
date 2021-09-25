@@ -1,0 +1,23 @@
+The <noscript> tag defines an alternate content to be displayed to users that have disabled 
+scripts in their browser or have a browser that doesn't support script.
+
+The <noscript> element can be used in both <head> and <body>. When used inside <head>, the 
+<noscript> element could only contain <link>, <style>, and <meta> elements.
+
+1	Call things by their name — easy, short and readable variable and function names
+2	Avoid globals
+3	Stick to a strict coding style
+4	Comment as much as needed but not more
+5	Avoid mixing with other technologies
+6	Use shortcut notation when it makes sense
+7	Modularize — one function per task
+8	Enhance progressively
+9	Allow for configuration and translation
+10	Avoid heavy nesting
+11	Optimize loops
+12	Keep DOM access to a minimum
+13	Don’t yield to browser whims
+14	Don’t trust any data
+15	Add functionality with JavaScript, don’t create too much content
+16	Build on the shoulders of giants
+17	Development code is not live code

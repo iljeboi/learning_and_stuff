@@ -1,0 +1,8 @@
+ECMAScript: Raw JavaScript
+ECMAScript is a language specification. It is basically the blueprint of how JavaScript should work.
+
+Transpiled Languages (JavaScript Lookalikes)
+Transpiled languages like CoffeeScript and TypeScript look similar to JavaScript, but aren’t actually JavaScript. 
+Others, like Emscripten, convert entirely different languages into JavaScript.
+
+Babel is a popular transpiler that converts JavaScript to JavaScript. (mainly for converting newer JavaScript to older versions)

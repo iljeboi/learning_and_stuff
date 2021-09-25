@@ -1,0 +1,23 @@
+Babel now supporting async/await out of the box, and ES2016 (or ES7) just around the corner, async & await 
+basically just syntactic sugar on top of Promises, these two keywords alone should make writing asynchronous 
+code in Node much more bearable.
+
+ES5 -> Callback
+ES6 -> Promise
+ES7 -> async & await
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+async function getUserDetail() {
+    try {
+        let users = await getUsers();
+        return users[0].name;
+    } catch (err) {
+        return {
+            name: 'default user'
+        };
+    }
+}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Good, async/await is a great syntactic improvement for both nodejs and browser programmers. 
+Comparing to Promises, it is a shortcut to reach the same destination.

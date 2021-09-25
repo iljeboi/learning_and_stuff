@@ -1,0 +1,19 @@
+The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+A promise represents the result of the asynchronous function. Promises can be used to avoid chaining callbacks.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+var promise1 = new Promise(function(resolve, reject) {
+    isDbOperationCompleted = false;
+    if (isDbOperationCompleted) {
+        resolve('Completed');
+    } else {
+        reject('Not completed');
+    }
+});
+promise1.then(function(result) {
+    console.log(result); //Output : Completed
+}).catch(function(error) {
+    console.log(error); //if isDbOperationCompleted=FALSE                                                  
+    //Output : Not Completed
+})
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

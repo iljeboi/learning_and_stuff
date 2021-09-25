@@ -1,0 +1,19 @@
+Currying is a technique of evaluating the function with multiple arguments, into a 
+sequence of function with a single argument.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+var add =   function (a){
+                 return function(b){
+                       return function(c){
+                              return a+b+c;
+                              }        
+                        }
+                  }
+console.log(add(2)(3)(4)); //output 9
+console.log(add(3)(4)(5)); //output 12
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+this currying achieving through closures, so above program variables a,b private properties of the parent function
+
+Why Useful Currying?
+Mainly It helps to create a higher-order function. It is extremely helpful in event handling.
